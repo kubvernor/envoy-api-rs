@@ -1,0 +1,18 @@
+[submodule "protos/client_model"]
+	path = protos/client_model
+	url = https://github.com/prometheus/client_model.git
+[submodule "protos/opentelemetry-proto"]
+	path = protos/opentelemetry-proto
+	url = https://github.com/open-telemetry/opentelemetry-proto.git
+[submodule "protos/data-plane-api"]
+	path = protos/data-plane-api
+	url = https://github.com/envoyproxy/data-plane-api.git
+[submodule "protos/xds"]
+	path = protos/xds
+	url = https://github.com/cncf/xds.git
+[submodule "protos/googleapis"]
+	path = protos/googleapis
+	url = https://github.com/googleapis/googleapis.git
+[submodule "protos/protoc-gen-validate"]
+	path = protos/protoc-gen-validate
+	url = https://github.com/bufbuild/protoc-gen-validate.git
