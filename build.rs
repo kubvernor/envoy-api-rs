@@ -23,7 +23,8 @@ fn main() -> std::io::Result<()> {
                 "protos/data-plane-api/",
                 "protos/xds",
                 "protos/googleapis/",
-		"protos/protoc-gen-validate"
+		"protos/protoc-gen-validate",
+		"protos/cel-spec/proto"
             ],
         )?;
 

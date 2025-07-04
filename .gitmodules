@@ -16,3 +16,6 @@
 [submodule "protos/protoc-gen-validate"]
 	path = protos/protoc-gen-validate
 	url = https://github.com/bufbuild/protoc-gen-validate.git
+[submodule "protos/cel-spec"]
+	path = protos/cel-spec
+	url = https://github.com/google/cel-spec.git
