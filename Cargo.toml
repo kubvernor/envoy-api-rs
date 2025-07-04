@@ -6,20 +6,20 @@ description = "Envoy API"
 license = "Apache"
 
 [dependencies]
-tonic = "^0.12"
-tonic-health = "^0.12"
+tonic = "^0.13"
+tonic-health = "^0.13"
 serde = { version = "^1", features = ["derive"] }
 serde_json = "^1.0"
 serde_yaml = "^0.9"
-prost-reflect = { version = "0.14", features = ["serde", "derive"]}
-prost = "0.13"
+prost-reflect = { version = "0.16", features = ["serde", "derive"]}
+prost = "0.14"
 
 
 [build-dependencies]
-prost-build = "^0.13"
-tonic-build = "^0.12"
+prost-build = "^0.14"
+tonic-build = "^0.13"
 glob = "^0.3"
-prost-reflect = { version = "0.14", features = ["serde", "derive"]}
+prost-reflect = { version = "0.16", features = ["serde", "derive"]}
 
 
 
